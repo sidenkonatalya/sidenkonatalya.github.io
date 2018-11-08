@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Yoga-1; /* Гарнитура шрифта */
+    src: url(Yoga-1.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body, .jumbotron {
+	background-color:#ced4da !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #daa403 !important;	
+font-size: 20px; 
+}
+.yoga-font {
+	font-family: Yoga-1;
+	font-size: 72px;
+	font-weight: bold;
+	color: #5f4906;
+}
+.journal-font {
+	font-family: tahoma sans-serif;
+	font-size: 40px;
+	margin-top: -20px; 
+	color: #5f4906;
+}
+.jumb-tx-left {
+color:#353a40; text-align: left;
+}
+.jumb-tx-right {
+color:#353a40;	 text-align: right; font-style: italic;
+}
+.card_style
+{
+	margin: 40px;
+}
+.col-8 img {
+	margin-bottom: 10px;
+}
+.col-4-h3 {
+	color: #5f4906; margin-left: 10%;
+}
+.card-col-4 {
+	width: 80%; margin:0 auto;margin-bottom: 10px;
+}
