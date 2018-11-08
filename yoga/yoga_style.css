@@ -2,7 +2,20 @@
     font-family: Yoga-1; /* Гарнитура шрифта */
     src: url(Yoga-1.ttf); /* Путь к файлу со шрифтом */
    }
-
+.icon_seti {
+	font-size: 30px;	
+	float: right;
+}
+.icon_seti a {		
+	color: #daa403;
+	padding: 7px;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+}
+.icon_seti a:hover, .icon_seti a:active {
+	color: red;
+}
 body, .jumbotron {
 	background-color:#ced4da !important;
 }
@@ -40,4 +53,10 @@ color:#353a40;	 text-align: right; font-style: italic;
 }
 .card-col-4 {
 	width: 80%; margin:0 auto;margin-bottom: 10px;
+}
+
+.footer_yog {
+	background-color: #353a40;
+	padding: 10px 0px;
+	margin-top:15px;
 }
